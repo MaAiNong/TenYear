@@ -13,6 +13,7 @@
 		0AD5661F216B99F00031DDF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AD5661E216B99F00031DDF2 /* Assets.xcassets */; };
 		0AD56622216B99F00031DDF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AD56620216B99F00031DDF2 /* LaunchScreen.storyboard */; };
 		0AD56625216B99F00031DDF2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD56624216B99F00031DDF2 /* main.m */; };
+		0AD5662E216B9B6B0031DDF2 /* SonAndSuper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD5662D216B9B6B0031DDF2 /* SonAndSuper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		0AD56621216B99F00031DDF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0AD56623216B99F00031DDF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0AD56624216B99F00031DDF2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0AD5662C216B9B6B0031DDF2 /* SonAndSuper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SonAndSuper.h; sourceTree = "<group>"; };
+		0AD5662D216B9B6B0031DDF2 /* SonAndSuper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SonAndSuper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		0AD56614216B99EF0031DDF2 /* TenYearsStudy */ = {
 			isa = PBXGroup;
 			children = (
+				0AD5662B216B9A090031DDF2 /* selfandsuper */,
 				0AD56615216B99EF0031DDF2 /* AppDelegate.h */,
 				0AD56616216B99EF0031DDF2 /* AppDelegate.m */,
 				0AD56618216B99EF0031DDF2 /* ViewController.h */,
@@ -69,6 +73,15 @@
 				0AD56624216B99F00031DDF2 /* main.m */,
 			);
 			path = TenYearsStudy;
+			sourceTree = "<group>";
+		};
+		0AD5662B216B9A090031DDF2 /* selfandsuper */ = {
+			isa = PBXGroup;
+			children = (
+				0AD5662C216B9B6B0031DDF2 /* SonAndSuper.h */,
+				0AD5662D216B9B6B0031DDF2 /* SonAndSuper.m */,
+			);
+			path = selfandsuper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,6 +157,7 @@
 			files = (
 				0AD5661A216B99EF0031DDF2 /* ViewController.m in Sources */,
 				0AD56625216B99F00031DDF2 /* main.m in Sources */,
+				0AD5662E216B9B6B0031DDF2 /* SonAndSuper.m in Sources */,
 				0AD56617216B99EF0031DDF2 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
